@@ -29,8 +29,8 @@ namespace StoreManager.LogHandler
                                                   new Action(() =>
                                                   {
                                                       LogsList.Insert(0, logMsg);
-                                                  })
-                                              );
+                                                  }));
+
             Console.WriteLine("{0}:{1}", logMsg.TimeStamp, logMsg.Message);
         }
     }
