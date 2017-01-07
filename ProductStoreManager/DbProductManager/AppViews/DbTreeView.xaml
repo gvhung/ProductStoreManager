@@ -1,0 +1,8 @@
+﻿<Window x:Class="StoreManager.DbProductManager.AppViews.DbTreeView"  
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DbTreeView" Height="300" Width="300" WindowState="Maximized" SizeToContent="Manual">
+    <Grid>
+        <TreeView Name="dbTreeView" TreeViewItem.Expanded="dbTreeView_Expanded" Margin="10" Width="500" />
+    </Grid>
+</Window>
